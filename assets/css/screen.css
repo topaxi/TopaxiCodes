@@ -912,13 +912,17 @@ body.nav-opened .nav {
     animation-delay: 0.1s;
 }
 
-/* Every post, on every page, gets this style on its <article> tag */
-.post {
+.adsbygoogle, .post {
     position: relative;
     width: 80%;
     max-width: 710px;
     margin: 4rem auto;
     padding-bottom: 4rem;
+    display: block;
+}
+
+/* Every post, on every page, gets this style on its <article> tag */
+.post {
     border-bottom: #EBF2F6 1px solid;
     word-wrap: break-word;
 }
