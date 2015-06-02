@@ -916,6 +916,10 @@ body.nav-opened .nav {
     margin: 1rem auto;
 }
 
+.adsbygoogle_before-content {
+    margin: 0 auto 2em;
+}
+
 .adsbygoogle, .post {
     position: relative;
     width: 80%;
