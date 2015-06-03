@@ -920,6 +920,10 @@ body.nav-opened .nav {
     margin: 0 auto 2em;
 }
 
+.adsbygoogle iframe {
+    margin: 0;
+}
+
 .adsbygoogle, .post {
     position: relative;
     width: 80%;
