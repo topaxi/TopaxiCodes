@@ -756,7 +756,7 @@ body:not(.post-template) .post-title {
     -ms-flex-positive: 1;
     flex-grow: 1;
     min-width: 50%;
-    text-decoration: none;
+    text-decoration: none !important;
     position: relative;
     text-align: center;
     color: #fff;
