@@ -14,12 +14,10 @@ var FONTS = [
   { family: 'Lora', weight: 'normal', style: 'normal', 'class': 'font-serif--loaded' },
   { family: 'PT Sans', weight: 700, style: 'normal', 'class': 'font-sans--loaded' },
   { family: 'PT Sans Caption', weight: 700, style: 'normal', 'class': 'font-heading--loaded' }
-];jQuery(function($) {
-	FONTS.forEach(function(font) {
-		var observer = new FontFaceObserver(font.family, font)
+];FONTS.forEach(function(font) {
+	var observer = new FontFaceObserver(font.family, font)
 
-		observer.check().then(function() {
-			$('html').addClass(font['class'])
-		})
+	observer.check().then(function() {
+		jQuery('html').addClass(font['class'])
 	})
 })
