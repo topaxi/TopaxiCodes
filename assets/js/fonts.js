@@ -18,6 +18,7 @@ var FONTS = [
 if (sessionStorage.getItem('fonts-loaded')) {
 	jQuery('html').addClass(FONTS.map(function(font) { return font['class'] }).join(' '))
 }
+else {
 Promise.all(FONTS.map(function(font) {
 	var observer = new FontFaceObserver(font.family, font)
 
